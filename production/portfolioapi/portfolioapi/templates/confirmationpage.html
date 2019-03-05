@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<body>
+		{% if success %}
+			<h1 style="text-align: center;">Your email {{message}} has been added to the mailing list.</h1>
+		{% else %}
+			<h1 style="text-align: center;">{{message}}</h1>
+		{% endif %}
+		<p style="text-align: center;">
+			Click <a href="https://nigelhaney.me/blog"> here </a> to return to the blog.
+		</p>
+		{% if success %}
+		<p>
+			If this was a mistake, click <a href="{{"https://nigelhaney.me/api/mail/unsubscribe/" + code}}">here</a> to unsubscribe.
+		</p>
+		{% endif %}
+	</body>
+</html>

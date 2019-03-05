@@ -1,0 +1,13 @@
+.previewItem:hover {
+	opacity:0.7;
+	background-color: #D3D3D3;
+}
+
+.previewItem {
+	margin:20px;
+	text-align:center;
+}
+
+.previewContainer {
+
+}

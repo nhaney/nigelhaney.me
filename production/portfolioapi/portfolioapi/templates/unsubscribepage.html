@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+	<body>
+		{% if success %}
+			<h1 style="text-align: center;">Your email has been unsubscribed from the mailing list.</h1>
+		{% else %}
+			<h1 style="text-align: center;">{{message}} Cannot unsubscribe.</h1>
+		{% endif %}
+		<p style="text-align: center;">
+			Click <a href="https://nigelhaney.me/blog"> here </a> to return to the blog.
+		</p>
+	</body>
+</html>

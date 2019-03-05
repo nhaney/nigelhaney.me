@@ -1,0 +1,5 @@
+sudo rm -rf venv
+sudo virtualenv -p python3.6 venv
+. venv/bin/activate
+sudo venv/bin/pip3.6 install -r requirements.txt
+sudo venv/bin/pip3.6 install Flask-Limiter

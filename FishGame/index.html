@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="game.css" type="text/css">
+	<title>Stay Off the Line!</title>
+</head>
+
+<body onload="startGame();">
+	<div class="row">
+		<div class="column1">
+			<div id="gameColumn">
+				<h1>Stay Off the Line!</h1>
+				<div id="scoreSubmission" style="text-align: center; display: none";>
+					<h4>Submit your score to the leaderboard!</h4>
+					<input placeholder="Your Name" id="nameInput" name="name" type="text" />
+					<button onclick="submitScore()">Submit Score</button>
+				</div>
+				<p id="submissionText" style="text-align: center; display: none;">Score submitted!</p>
+			</div>
+			<div id="highScores">
+				<br>
+				<h3>Your High Scores</h3>
+				<table id="scoreTable"></table>
+				<a href="https://nigelhaney.me/games/fish/scores">Global High Scores</a>
+			</div>
+		</div>
+		<div class="column2">
+			<div id="howTo">
+				<br><br>
+				<h2>How to play:</h2>
+				<p> 
+					Use <b>arrow keys</b> or <b>WASD</b> to move your fish around the ocean.<br>
+					Press <b>space</b> to use a boost. To get more boosts, eat more worms!<br>
+					Don't starve, and most importantly, <b>Stay Off the Line!</b><br>
+				</p>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="gameController.js"></script>
+
+</body>
+</html>

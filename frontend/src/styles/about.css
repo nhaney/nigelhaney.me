@@ -1,0 +1,32 @@
+.aboutText{
+  
+}
+
+.textContainer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContainer{
+  
+}
+
+img{
+  border-radius:15px;
+  padding:10px;
+}
+
+.petPic {
+    padding:10px;
+}
+
+/*
+white-space: pre;
+margin: 0 auto;
+const imgStyle = {
+  marginLeft:"auto",
+  marginRight:"auto",
+  width:"200px",
+  height:"150px"
+}*/
